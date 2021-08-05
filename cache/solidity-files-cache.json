@@ -1,0 +1,48 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\Solidity\\swapMain\\contracts\\swapMain.sol": {
+      "lastModificationDate": 1628076183603,
+      "contentHash": "c7937b72acfef90c8eefcb4e9f8e7bcf",
+      "sourceName": "contracts/swapMain.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "IERC20",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02",
+        "Ownable",
+        "SafeMath",
+        "swapTest"
+      ]
+    }
+  }
+}
